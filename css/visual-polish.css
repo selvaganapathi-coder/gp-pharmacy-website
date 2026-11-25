@@ -512,7 +512,6 @@ html.content-protect #site-root {
 
 /* Visible brand watermark on photo containers */
 html.content-protect .hero__media,
-html.content-protect .hero__slide,
 html.content-protect .course-detail__media,
 html.content-protect .feature-list__icon,
 html.content-protect .gallery-item,
@@ -524,6 +523,23 @@ html.content-protect figure:has(> img),
 html.content-protect .content-protect-media {
   position: relative;
   isolation: isolate;
+}
+
+html.content-protect .hero__slide {
+  position: absolute;
+  inset: 0;
+  isolation: isolate;
+}
+
+.hero__slide-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  pointer-events: none;
 }
 
 html.content-protect .hero__media::after,

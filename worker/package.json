@@ -1,0 +1,12 @@
+{
+  "name": "gp-pharmacy-worker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

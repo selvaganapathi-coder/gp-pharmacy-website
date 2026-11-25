@@ -72,11 +72,16 @@ export default function Hero({ badge, slides = [], captions = [], brand }) {
         <div
           key={`${src}-${i}`}
           className={`hero__slide${i === index ? ' active is-loaded' : ''}`}
-          style={{ backgroundImage: `url("${src}")` }}
-          role="img"
           aria-hidden={i !== index}
-          aria-label={i === index ? `${site.name} campus photo ${i + 1}` : undefined}
         >
+          <img
+            src={src}
+            alt={i === index ? `${site.name} campus photo ${i + 1}` : ''}
+            className="hero__slide-img"
+            loading={i === 0 ? 'eager' : 'lazy'}
+            decoding="async"
+            draggable={false}
+          />
           <div className="hero__overlay" />
         </div>
       ))}
