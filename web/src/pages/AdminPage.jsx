@@ -42,7 +42,7 @@ const NAV = [
 ]
 
 function LoginView({ onSuccess }) {
-  const [email, setEmail] = useState('admin@gppharmacycollege.com')
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [busy, setBusy] = useState(false)
@@ -79,6 +79,7 @@ function LoginView({ onSuccess }) {
           <input
             type="email"
             autoComplete="username"
+            placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
