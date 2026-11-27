@@ -24,7 +24,7 @@ export const DEFAULTS = {
   updatedAt: null,
   users: [],
   site: {
-    name: 'G.P. COLLEGE',
+    name: 'G.P. Pharmacy College',
     tag: 'Tirupattur · Code 889',
     code: '889',
     logo: 'https://gppharmacycollege.com/wp-content/uploads/2025/03/GP-Logo-neww.png',
@@ -42,7 +42,7 @@ export const DEFAULTS = {
     goMs: '460 & 464',
     university: 'The Tamil Nadu Dr. M.G.R. Medical University',
     seo: {
-      title: 'G.P. COLLEGE | Pharmacy Education · Counselling Code 889',
+      title: 'G.P. Pharmacy College | Pharmacy Education · Counselling Code 889',
       description:
         'PCI-approved pharmacy college in Tirupattur / Jolarpet. Counselling Code 889 — D.Pharm, B.Pharm, M.Pharm & Pharm-D. Talk to Admin.',
       ogImage: 'https://gppharmacycollege.com/wp-content/uploads/2025/03/GP-Logo-neww.png',
@@ -61,7 +61,7 @@ export const DEFAULTS = {
     homepage: {
       published: true,
       badge: 'PCI Approved · Counselling Code 889',
-      title: 'G.P. COLLEGE',
+      title: 'G.P. Pharmacy College',
       subtitle: 'Excellence in Pharmacy Education',
       slides: [
         `${GP_ASSETS}/G.P-Pharmacy-College-home.jpg`,
@@ -157,8 +157,8 @@ export const DEFAULTS = {
       heroSubtitle: 'First pharmacy college in Tirupattur & Vellore District · Established 2019',
       discoverTitle: 'GP Group — Education for Every Community',
       discoverProse: [
-        'Our Chairman Er. G. Ponnusamy, B.E., educationist, has provided quality education to middle-class and underserved communities since 1979 — starting with ITI, then Tirupattur Arts and Science College, GP Polytechnic, GP College of Education, and G.P. COLLEGE.',
-        'G.P. COLLEGE, established in 2019, is the first pharmacy college in Tirupattur and the entire Vellore District. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University and approved by PCI, we offer D.Pharm, B.Pharm, M.Pharm and Pharm-D with modern labs, digital classrooms, AC library, hostels, and strong career support.',
+        'Our Chairman Er. G. Ponnusamy, B.E., educationist, has provided quality education to middle-class and underserved communities since 1979 — starting with ITI, then Tirupattur Arts and Science College, GP Polytechnic, GP College of Education, and G.P. Pharmacy College.',
+        'G.P. Pharmacy College, established in 2019, is the first pharmacy college in Tirupattur and the entire Vellore District. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University and approved by PCI, we offer D.Pharm, B.Pharm, M.Pharm and Pharm-D with modern labs, digital classrooms, AC library, hostels, and strong career support.',
       ],
       discoverImage: `${GP_ASSETS}/gp-pharma-home-right1.jpg`,
       highlights: [
@@ -174,11 +174,11 @@ export const DEFAULTS = {
           name: 'Er. G. Ponnusamy',
           role: 'Chairman · GP Group of Institutions',
           image: `${GP_ASSETS}/G.P.Pharmacy-Chairman.jpg`,
-          bio: 'Visionary educationist providing quality education since 1979 through ITI, arts & science, polytechnic, education and pharmacy colleges. His leadership established G.P. COLLEGE as the first pharmacy institution in Tirupattur and Vellore District.',
+          bio: 'Visionary educationist providing quality education since 1979 through ITI, arts & science, polytechnic, education and pharmacy colleges. His leadership established G.P. Pharmacy College as the first pharmacy institution in Tirupattur and Vellore District.',
         },
         {
           name: 'Prof. Dr. S. Thenmozhi',
-          role: 'Principal · G.P. COLLEGE',
+          role: 'Principal · G.P. Pharmacy College',
           image: '/images/about/about-principal.png',
           bio: 'M.Pharm., Ph.D — Academic head responsible for institutional excellence and student outcomes.',
         },

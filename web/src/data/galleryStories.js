@@ -7,7 +7,7 @@ const STORIES = {
   campus: {
     label: 'Campus',
     titles: ['Main Campus View', 'College Entrance', 'Campus Pathways', 'Jolarpet Campus'],
-    text: 'A look at G.P. COLLEGE on Vaniyambadi Main Road, Jolarpet — Tirupattur’s first pharmacy college (Est. 2019, Counselling Code 889).',
+    text: 'A look at G.P. Pharmacy College on Vaniyambadi Main Road, Jolarpet — Tirupattur’s first pharmacy college (Est. 2019, Counselling Code 889).',
   },
   labs: {
     label: 'Laboratories',
@@ -63,7 +63,7 @@ const STORIES = {
   convocation: {
     label: 'Convocation',
     titles: ['Graduation Day', 'Convocation Ceremony', 'Degree Celebration'],
-    text: 'Convocation marks academic achievement — celebrating graduates who complete pharmacy programmes at G.P. COLLEGE.',
+    text: 'Convocation marks academic achievement — celebrating graduates who complete pharmacy programmes at G.P. Pharmacy College.',
   },
 }
 

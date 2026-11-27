@@ -14,7 +14,7 @@ export default function Hero({ badge, slides = [], captions = [], brand }) {
   const validSlides = (Array.isArray(slides) ? slides : []).filter(Boolean)
   const count = validSlides.length || 1
   const caption = captions[index] || captions[0] || {}
-  const brandName = brand || site.name || 'G.P. COLLEGE'
+  const brandName = brand || site.name || 'G.P. Pharmacy College'
 
   useEffect(() => {
     if (index >= count) {

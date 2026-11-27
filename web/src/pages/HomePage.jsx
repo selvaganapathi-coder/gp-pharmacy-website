@@ -166,7 +166,7 @@ export default function HomePage() {
       </section>
 
       {/* 4. Why GP — attributes */}
-      <section className="home-attributes section space" id="homeAttributes" aria-label="Why G.P. College">
+      <section className="home-attributes section space" id="homeAttributes" aria-label="Why G.P. Pharmacy College">
         <div className="container">
           <FadeUp className="home-attributes__intro">
             <div>

@@ -1,7 +1,7 @@
 /** Shared site constants — Talk to Admin model (no apply wizard). */
 
 export const SITE = {
-  name: 'G.P. COLLEGE',
+  name: 'G.P. Pharmacy College',
   tag: 'Tirupattur · Code 889',
   code: '889',
   logo: 'https://gppharmacycollege.com/wp-content/uploads/2025/03/GP-Logo-neww.png',
@@ -23,7 +23,7 @@ export const SITE = {
   university: 'The Tamil Nadu Dr. M.G.R. Medical University',
   whatsapp: '919443437487',
   seo: {
-    title: 'G.P. COLLEGE | Pharmacy Education · Counselling Code 889',
+    title: 'G.P. Pharmacy College | Pharmacy Education · Counselling Code 889',
     description:
       'PCI-approved pharmacy college in Tirupattur / Jolarpet. Counselling Code 889 — D.Pharm, B.Pharm, M.Pharm & Pharm-D. Talk to Admin.',
     ogImage: 'https://gppharmacycollege.com/wp-content/uploads/2025/03/GP-Logo-neww.png',

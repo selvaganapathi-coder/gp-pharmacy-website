@@ -85,7 +85,7 @@ export default function AdmissionsWelcome() {
               2026 Admissions open
             </h2>
             <p className="welcome-modal__lead">
-              Shape your future in pharmacy at G.P. COLLEGE — Counselling Code{' '}
+              Shape your future in pharmacy at G.P. Pharmacy College — Counselling Code{' '}
               <strong>{site.code}</strong>.
             </p>
 

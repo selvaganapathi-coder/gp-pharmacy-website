@@ -28,7 +28,7 @@ function updateStickyOffset() {
 
 function applySeo(site) {
   const seo = site?.seo || {}
-  const title = seo.title || `${site?.name || 'G.P. COLLEGE'} · Code ${site?.code || '889'}`
+  const title = seo.title || `${site?.name || 'G.P. Pharmacy College'} · Code ${site?.code || '889'}`
   const description =
     seo.description ||
     'PCI-approved pharmacy college in Jolarpet / Tirupattur. Talk to Admin for admissions.'

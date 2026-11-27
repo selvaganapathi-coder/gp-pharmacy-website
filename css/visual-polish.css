@@ -553,7 +553,7 @@ html.content-protect .home-about__media::after,
 html.content-protect .people-card__photo::after,
 html.content-protect figure:has(> img)::after,
 html.content-protect .content-protect-media::after {
-  content: var(--gp-watermark, 'G.P. COLLEGE · Code 889');
+  content: var(--gp-watermark, 'G.P. Pharmacy College · Code 889');
   position: absolute;
   inset: auto 0.65rem 0.55rem auto;
   z-index: 3;

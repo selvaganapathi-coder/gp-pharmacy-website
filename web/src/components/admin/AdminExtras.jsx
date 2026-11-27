@@ -9,7 +9,7 @@ export function SiteLivePreview({ site }) {
       <div className="admin-preview__bar">
         <img src={site?.logoMark || site?.logo} alt="" width={28} height={28} />
         <div>
-          <strong>{site?.name || 'G.P. COLLEGE'}</strong>
+          <strong>{site?.name || 'G.P. Pharmacy College'}</strong>
           <small>{site?.tag || `Tirupattur · Code ${site?.code || '889'}`}</small>
         </div>
         <div className="admin-preview__contact">

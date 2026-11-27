@@ -107,7 +107,7 @@ export default function SiteLoader() {
 
   if (!showLoader) return null
 
-  const brand = site?.name || 'G.P. COLLEGE'
+  const brand = site?.name || 'G.P. Pharmacy College'
   const tag = site?.tag || 'Tirupattur · Code 889'
 
   return (

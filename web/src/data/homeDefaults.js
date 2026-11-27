@@ -2,7 +2,7 @@
 
 export const DEFAULT_HOME = {
   badge: 'PCI Approved, Counselling Code 889',
-  title: 'G.P. COLLEGE',
+  title: 'G.P. Pharmacy College',
   subtitle: 'Excellence in Pharmacy Education',
   announcement:
     'Counselling Code 889 · PCI (3030) · TN G.O (Ms) 460 & 464 · Affiliated to The Tamil Nadu Dr. M.G.R. Medical University',

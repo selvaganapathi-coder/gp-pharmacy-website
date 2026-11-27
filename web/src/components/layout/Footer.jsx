@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div>
             <div className="footer__logo">
-              <img src={site.logo} alt="G.P. COLLEGE" width="160" height="48" loading="lazy" />
+              <img src={site.logo} alt="G.P. Pharmacy College" width="160" height="48" loading="lazy" />
             </div>
             <p className="footer__brand-name brand-name">
               <strong>{site.name}</strong>

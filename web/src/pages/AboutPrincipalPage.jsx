@@ -29,7 +29,7 @@ export default function AboutPrincipalPage() {
     about.leadership.find((l) => /principal/i.test(l.role || '')) ||
     about.leadership[1] || {
       name: 'Prof. Dr. S. Thenmozhi',
-      role: 'Principal · G.P. COLLEGE',
+      role: 'Principal · G.P. Pharmacy College',
       image: '/images/about/about-principal.png',
       bio: 'M.Pharm., Ph.D — Academic head responsible for institutional excellence and student outcomes.',
     }
@@ -40,7 +40,7 @@ export default function AboutPrincipalPage() {
         variant="compact"
         crumbs={[{ to: '/about', label: 'About' }, { label: 'Principal' }]}
         title="Our Principal"
-        subtitle="Academic leadership at G.P. COLLEGE"
+        subtitle="Academic leadership at G.P. Pharmacy College"
       />
       <AboutSubnav />
 
@@ -66,7 +66,7 @@ export default function AboutPrincipalPage() {
             <div className="about-principal-srec__copy">
               {principal.bio ? <p className="about-principal-srec__prose">{principal.bio}</p> : null}
               <p className="about-principal-srec__prose">
-                {principal.name} leads G.P. COLLEGE with a focus on pharmaceutical education, research,
+                {principal.name} leads G.P. Pharmacy College with a focus on pharmaceutical education, research,
                 and student outcomes. Under this guidance the college maintains strong academic standards,
                 modern laboratory practice, and hospital and industry links for training and placements.
               </p>

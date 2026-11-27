@@ -96,9 +96,9 @@ export default function AboutPage() {
               </div>
             </div>
             <figure className="about-discover__media">
-              <img src={about.discoverImage} alt="G.P. COLLEGE campus" loading="lazy" />
+              <img src={about.discoverImage} alt="G.P. Pharmacy College campus" loading="lazy" />
               <figcaption className="about-discover__caption">
-                <strong className="brand-name">G.P. COLLEGE</strong> · Tirupattur
+                <strong className="brand-name">G.P. Pharmacy College</strong> · Tirupattur
               </figcaption>
             </figure>
           </Fade>
@@ -232,7 +232,7 @@ export default function AboutPage() {
             <figure className="about-vm__banner">
               <img
                 src="https://gppharmacycollege.com/wp-content/uploads/2025/03/G.P-Pharmacy-College-home.jpg"
-                alt="G.P. COLLEGE campus"
+                alt="G.P. Pharmacy College campus"
                 loading="lazy"
               />
             </figure>

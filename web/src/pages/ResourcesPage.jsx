@@ -113,7 +113,7 @@ const PARENT_CARDS = [
 ]
 
 const PARENT_KNOW = [
-  { label: 'College', value: 'G.P. COLLEGE, Tirupattur (Jolarpet)' },
+  { label: 'College', value: 'G.P. Pharmacy College, Tirupattur (Jolarpet)' },
   { label: 'Counselling Code', value: 'CODE', highlight: true },
   { label: 'Approvals', value: 'PCI · TN Dr. M.G.R. Medical University' },
   { label: 'Programs', value: 'D.Pharm · B.Pharm · M.Pharm · Pharm-D' },

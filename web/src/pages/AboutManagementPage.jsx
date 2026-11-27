@@ -10,7 +10,7 @@ const GP = 'https://gppharmacycollege.com/wp-content/uploads/2025/03'
 const FOUNDER_STORY = [
   'Tirupattur and the wider Vellore region are known for culture, temples, and a growing drive toward professional education. That transition — from traditional community life to skilled, career-ready learning — has been shaped by educators who believe opportunity should reach every family.',
   'This vision was brought to life by Er. G. Ponnusamy, B.E., a philanthropist and educationist who set out to remove ignorance through accessible professional education. He founded the GP Group of Institutions with a clear aim: quality training for middle-class and underserved communities.',
-  'Beginning with an ITI in 1979, he expanded the group step by step — Tirupattur Arts and Science College, GP Polytechnic College, GP College of Education — and fulfilled a regional need by establishing G.P. COLLEGE in 2019, the first pharmacy college in Tirupattur and the entire Vellore District.',
+  'Beginning with an ITI in 1979, he expanded the group step by step — Tirupattur Arts and Science College, GP Polytechnic College, GP College of Education — and fulfilled a regional need by establishing G.P. Pharmacy College in 2019, the first pharmacy college in Tirupattur and the entire Vellore District.',
   'Today the college continues that ambition under the GP Group: PCI-approved programs, modern labs, and student-centred campus life — Counselling Code 889 — so pharmacy education remains within reach of those who need it most.',
 ]
 
@@ -19,7 +19,7 @@ const INSTITUTIONS = [
   { year: '—', name: 'Tirupattur Arts and Science College', note: 'Higher education for the region' },
   { year: '—', name: 'GP Polytechnic College', note: 'Technical & vocational pathways' },
   { year: '—', name: 'GP College of Education', note: 'Teacher education' },
-  { year: '2019', name: 'G.P. COLLEGE', note: 'First pharmacy college in Tirupattur & Vellore District' },
+  { year: '2019', name: 'G.P. Pharmacy College', note: 'First pharmacy college in Tirupattur & Vellore District' },
 ]
 
 const CHAIRMAN_FALLBACK = {
@@ -122,7 +122,7 @@ export default function AboutManagementPage() {
           <Fade className="about-mgmt-journey__visual">
             <img
               src={`${GP}/G.P-Pharmacy-College-home.jpg`}
-              alt="G.P. COLLEGE campus"
+              alt="G.P. Pharmacy College campus"
               width="1200"
               height="560"
               loading="lazy"

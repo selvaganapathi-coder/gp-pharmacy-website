@@ -1,5 +1,5 @@
 /** Official display name — use everywhere the college is named. */
-export const COLLEGE_NAME = 'G.P. COLLEGE'
+export const COLLEGE_NAME = 'G.P. Pharmacy College'
 
 /**
  * Bold brand mark for the college name.

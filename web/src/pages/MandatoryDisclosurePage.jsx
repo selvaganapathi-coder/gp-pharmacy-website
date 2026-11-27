@@ -175,7 +175,7 @@ export default function MandatoryDisclosurePage() {
             <Fade className="disclosure-card" id="governing-body">
               <h2>Governing Body</h2>
               <p>
-                G.P. COLLEGE is managed by the GP Group under the leadership of Chairman Er. G.
+                G.P. Pharmacy College is managed by the GP Group under the leadership of Chairman Er. G.
                 Ponnusamy. Academic administration is led by the Principal and senior faculty.
               </p>
               <p className="disclosure-note">
@@ -297,7 +297,7 @@ export default function MandatoryDisclosurePage() {
             <Fade className="disclosure-card" id="anti-ragging">
               <h2>Anti-Ragging</h2>
               <p>
-                G.P. COLLEGE maintains a zero-tolerance policy against ragging in accordance
+                G.P. Pharmacy College maintains a zero-tolerance policy against ragging in accordance
                 with UGC regulations.
               </p>
               <p>

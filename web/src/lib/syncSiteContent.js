@@ -75,7 +75,7 @@ export function syncSiteEverywhere(content) {
   const site = { ...(next.site || {}) }
 
   const code = String(site.code || '889').trim() || '889'
-  const name = String(site.name || 'G.P. COLLEGE').trim() || 'G.P. COLLEGE'
+  const name = String(site.name || 'G.P. Pharmacy College').trim() || 'G.P. Pharmacy College'
   const phone = String(site.phone || '').trim()
   const phoneAlt = String(site.phoneAlt || '').trim()
   const phoneDisplay = String(site.phoneDisplay || '').trim() || formatPhoneDisplay(phone)

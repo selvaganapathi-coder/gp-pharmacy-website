@@ -154,7 +154,7 @@ async function loadStore(env) {
         createdAt: '2026-01-01',
       },
     ],
-    site: { name: 'G.P. COLLEGE', code: '889' },
+    site: { name: 'G.P. Pharmacy College', code: '889' },
     website: { homepage: { published: true } },
     notices: [],
     events: [],

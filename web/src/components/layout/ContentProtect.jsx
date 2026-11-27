@@ -5,7 +5,7 @@ import { useEffect } from 'react'
  * Watermark + blur-on-leave + block save/copy. OS screenshots cannot be fully blocked.
  */
 export default function ContentProtect({ enabled, site }) {
-  const mark = `${site?.name || 'G.P. COLLEGE'} · Code ${site?.code || '889'}`
+  const mark = `${site?.name || 'G.P. Pharmacy College'} · Code ${site?.code || '889'}`
 
   useEffect(() => {
     if (!enabled) {

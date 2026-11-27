@@ -59,7 +59,7 @@ export default function NewsPage() {
         variant="compact"
         crumbs={[{ label: 'Media' }, { label: 'News' }]}
         title="News & Announcements"
-        subtitle="Official notices and campus updates from G.P. COLLEGE"
+        subtitle="Official notices and campus updates from G.P. Pharmacy College"
       />
       <MediaSubnav />
 

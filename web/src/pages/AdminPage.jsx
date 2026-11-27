@@ -407,7 +407,7 @@ export default function AdminPage() {
     <div className="admin-shell">
       <aside className="admin-sidebar">
         <div className="admin-sidebar__brand">
-          <strong>G.P. COLLEGE</strong>
+          <strong>G.P. Pharmacy College</strong>
           <small>Website editor</small>
         </div>
         <nav className="admin-nav" aria-label="Edit sections">
@@ -635,7 +635,7 @@ export default function AdminPage() {
                 <Field label="Brand / College Title">
                   <input
                     value={hp.title || ''}
-                    placeholder="G.P. COLLEGE"
+                    placeholder="G.P. Pharmacy College"
                     onChange={(e) => patchHomepage('title', e.target.value)}
                   />
                 </Field>

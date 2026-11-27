@@ -39,7 +39,7 @@ export default function RouteMapPage() {
       id: 'main',
       index: '01',
       label: 'Main Campus',
-      title: 'G.P. COLLEGE',
+      title: 'G.P. Pharmacy College',
       desc: 'Open the college pin on Google Maps — Vaniyambadi Main Road, Mandalavadi, Jolarpet.',
       url: site.mapsPlaceUrl,
     },
@@ -134,7 +134,7 @@ export default function RouteMapPage() {
                 <li>
                   <strong>By bus</strong>
                   <span>
-                    Ask for Mandalavadi / G.P. COLLEGE stop on Vaniyambadi Main Road
+                    Ask for Mandalavadi / G.P. Pharmacy College stop on Vaniyambadi Main Road
                     (Jolarpet–Tirupattur–Vaniyambadi corridor).
                   </span>
                 </li>
@@ -181,7 +181,7 @@ export default function RouteMapPage() {
           <Fade className="route-map-embed__frame">
             <iframe
               src={mapsEmbed}
-              title="G.P. COLLEGE location"
+              title="G.P. Pharmacy College location"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen

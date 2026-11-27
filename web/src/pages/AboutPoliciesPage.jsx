@@ -19,7 +19,7 @@ const POLICIES = [
     id: 'anti-ragging',
     title: 'Anti-Ragging',
     body: [
-      'G.P. COLLEGE maintains a zero-tolerance policy against ragging in accordance with UGC regulations and Tamil Nadu government directives.',
+      'G.P. Pharmacy College maintains a zero-tolerance policy against ragging in accordance with UGC regulations and Tamil Nadu government directives.',
       'Any form of ragging — physical, verbal, or online — is strictly prohibited on campus, in hostels, and during college-related activities.',
     ],
     contacts: [

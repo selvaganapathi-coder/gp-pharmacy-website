@@ -37,7 +37,7 @@ export default function ImageStoryPopup({
     item.summary ||
     item.excerpt ||
     item.caption ||
-    'A moment from campus life at G.P. COLLEGE — labs, learning, and student activities.'
+    'A moment from campus life at G.P. Pharmacy College — labs, learning, and student activities.'
   const date = item.date ? formatEventDate(item.date) : null
 
   return (

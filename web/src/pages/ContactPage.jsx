@@ -97,7 +97,7 @@ export default function ContactPage() {
       email: values.email.trim(),
       course: courseLabel,
       message: values.message.trim() || '—',
-      _subject: 'New Enquiry — G.P. COLLEGE Website',
+      _subject: 'New Enquiry — G.P. Pharmacy College Website',
       _template: 'table',
       _captcha: 'false',
     }
@@ -123,7 +123,7 @@ export default function ContactPage() {
       })
     } catch {
       const mail = contact.email || site.email
-      const subject = encodeURIComponent('New Enquiry — G.P. COLLEGE Website')
+      const subject = encodeURIComponent('New Enquiry — G.P. Pharmacy College Website')
       const body = encodeURIComponent(
         [
           `Name: ${values.name.trim()}`,
@@ -380,7 +380,7 @@ export default function ContactPage() {
           <Fade className="contact-map__frame">
             <iframe
               src={mapsEmbed}
-              title="G.P. COLLEGE location"
+              title="G.P. Pharmacy College location"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
